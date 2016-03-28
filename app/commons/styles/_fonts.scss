@@ -1,0 +1,96 @@
+/**
+ * Import fonts either via @import url (e.g. from Googlee Fonts)
+ * or via @font-face when font files are stored locally in /app/fonts
+ */
+
+// @import url(http://fonts.googleapis.com/css?family=Roboto:700,400,300);
+
+@font-face {
+  font-family : 'Roboto';
+  src         : url('../fonts/Roboto-Light.ttf') format("truetype");
+  font-weight : 300;
+  font-style  : normal;
+}
+
+@font-face {
+  font-family : 'Roboto';
+  src         : url('../fonts/Roboto-Regular.ttf') format("truetype");
+  font-weight : 400;
+  font-style  : normal;
+}
+
+@font-face {
+  font-family : 'Roboto';
+  src         : url('../fonts/Roboto-Bold.ttf') format("truetype");
+  font-weight : 700;
+  font-style  : normal;
+}
+
+@font-face {
+  font-family : 'icomoon';
+  src         : url('../fonts/icomoon.eot?-c7ptlc');
+  src         : url('../fonts/icomoon.eot?#iefix-c7ptlc') format('embedded-opentype'),
+  url('../fonts/icomoon.ttf?-c7ptlc') format('truetype'),
+  url('../fonts/icomoon.woff?-c7ptlc') format('woff'),
+  url('../fonts/icomoon.svg?-c7ptlc#icomoon') format('svg');
+  font-weight : normal;
+  font-style  : normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family             : 'icomoon';
+  speak                   : none;
+  font-style              : normal;
+  font-weight             : normal;
+  font-variant            : normal;
+  text-transform          : none;
+  line-height             : 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing  : antialiased;
+  -moz-osx-font-smoothing : grayscale;
+}
+
+
+
+.icon-back:before {
+  content: "\e600";
+}
+.icon-pwd:before {
+  content: "\e601";
+}
+.icon-user:before {
+  content: "\e602";
+}
+
+.icon-communications:before {
+  content : "\e603";
+}
+
+.icon-employee:before {
+  content : "\e604";
+}
+
+.icon-community:before {
+  content : "\e605";
+}
+
+.icon-news:before {
+  content : "\e606";
+}
+
+.icon-service:before {
+  content : "\e607";
+}
+
+.icon-recruit:before {
+  content : "\e608";
+}
+
+.icon-sale:before {
+  content : "\e609";
+}
+
+.icon-meeting:before {
+  content : "\e60a";
+}

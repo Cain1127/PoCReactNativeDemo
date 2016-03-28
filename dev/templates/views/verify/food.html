@@ -1,0 +1,65 @@
+<ion-view title="美食薈萃">
+
+    <ion-nav-buttons side="left">
+        <button class="button header-setting-button" ng-click="foodSettingButtonAction()"></button>
+    </ion-nav-buttons>
+
+    <div class="bar bar-subheader" style="position:relative; height:50px; width:100%; display:{{searchout}}">
+        <ol class="nya-bs-select" ng-model="category" style="position:absolute; left:0px; top:50px;  width:88%;  ">
+            <li nya-bs-option="food in form">
+                <a>{{food.type}}</a>
+            </li>
+        </ol>
+
+        <ol class="nya-bs-select" ng-model="selectPlace" style="position:absolute; left:0px; top:50px; width:88%;  ">
+        <!--<ol class="nya-bs-select" ng-model="selectPlace" title="所有区域" style="position:absolute; left:44%; top:0px; width:44%; height:50px; ">-->
+            <li nya-bs-option="select in range">
+                <a>{{select.place}}</a>
+            </li>
+        </ol>
+
+        <div style="position:absolute; left:88%; top:0px; width:12%; height:50px; background-color:#993399;z-index: 1040;" ng-click="toSearch()">
+            <img src="images/ele_club_store_list_search@2x.png" style="color:white; width:30px; position:absolute; left:4px; top:12px"></i>
+        </div>
+    </div>
+
+    <!--按了search按钮后的显示-->
+    <div class="bar bar-subheader" style="position:relative; height:50px; width:100%; background-color: #993399; display:{{searchin}}">
+        <div style="position:absolute; top:6px; left:15px; background:white; width:80%; height:37px;">
+            <i class="ion-ios-search-strong" style="color:purple; font-size:35px; position:absolute; left:6px; bottom:1px; "></i>
+            <input id="search" type="text" ng-model='keyword.outletname_en' style="position:absolute; left:37px; top:0px; width:87%; font-size:18px; height:37px;">
+        </div>
+        <span style="position:absolute; right:2%; top:15px; font-size:18px; color:white;" ng-click="cancleSearch()">
+            取消
+        </span>
+    </div>
+
+
+    <ion-content style="position:relative">
+        <ion-refresher on-refresh="doRefresh()"  pulling-text="Pull to refresh..."   refreshing-text="Refreshing!" refreshing-icon="ion-loading-b">
+        </ion-refresher>
+
+        <div ng-repeat="i in resultJSON | filter:keyword  | orderBy:'outletname_en'" class="" style="position:relative; height:81px; width:100%; background:white; border-bottom:1px solid #9E9E9E; z-index:100 ">
+            <div style="position:absolute; width:80%;  height:80px;" ng-click="foodToDetailButtonAction(i)">
+                <img src = "{{getIconSRC(i)}}" style="position:absolute; left:10px; top:12px; height:55px; width:82px; "/>
+                <span class=" " style="font-size:24; color:#333333; position:absolute; left:107px; top:30px; font-weight:bold" ng-bind="i.outletname_en">
+                </span>
+            </div>
+
+            <span style="position:absolute; top:15px; left:80%; width:0.3%; height:50px; background:#9E9E9E; display:block "></span>
+
+            <div style="position:absolute; left:80.5%; width:19.5%;  height:80px;">
+                <a href="tel:{{i.contact}}">
+                    <img src="images/ele_club_dining_book_icon.png" style="width:25px; position:absolute; right:28px; top:25px;">
+                </a>
+            </div>
+        </div>
+    </ion-content>
+
+    <div class="bar bar-subfooter" style="height:30px; background:#4D4D4D; opacity:0.9;">
+        <img src="images/ele_club_storeAndfood_icon.png" style="height:20px; width:18px; margin-left:8px;">
+        <span style="font-size:12px;; padding-bottom:20px; color:#ffffff; position:relative; left:3px; bottom:6px">
+            ELEMENTS 圓方購物現金卷-參與用戶
+        </span>
+    </div>
+</ion-view>

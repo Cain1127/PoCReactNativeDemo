@@ -1,0 +1,246 @@
+.head-background {
+  background-color: #993399;
+  position: relative;
+}
+.setting-close-button-drap{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 44px;
+  height: 44px;
+}
+
+.setting-close-button {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  background-position: center;
+}
+
+.header-setting-button {
+  left: 8px;
+  width: 30px;
+  border-width: 0;
+  background-size: 25px auto;
+  background-color:transparent !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url(../images/ele_club_topbar_btn_setting.png);
+}
+
+.title-font {
+  color: white;
+  font-weight: 900 !important;
+}
+
+.tatal_div {
+  position: relative;
+  height: 585px;
+  width: 100%;
+  background:#eeeeee;
+}
+
+.language-font {
+  position: absolute;
+  top: 10px;
+  left: 22px;
+  font-size: 24;
+  color:#666666;
+}
+
+.english-option {
+  position: absolute;
+  top: 40px;
+  height: 50px;
+  width: 100%;
+  background: white;
+  border-bottom:1pt solid #C4C4C4;
+}
+
+.eng-font {
+  position: absolute;
+  top: 18px;
+  left: 22px;
+  font-size: 30;
+  font-weight: bold;
+  color:#333333;
+}
+
+.eng-tick {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+
+.fchinese-option {
+  position: absolute;
+  top: 91px;
+  height: 50px;
+  width: 100%;
+  background: white;
+  border-bottom:1pt solid #C4C4C4;
+}
+
+.f-font {
+  position: absolute;
+  top: 18px;
+  left: 22px;
+  font-size: 30;
+  font-weight: bold;
+  color:#333333;
+}
+
+.fchinese-tick {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+
+.jchinese-option {
+  position: absolute;
+  top: 142px;
+  height: 50px;
+  width: 100%;
+  background: white;
+}
+
+.j-font {
+  position: absolute;
+  top: 18px;
+  left: 22px;
+  font-size: 30;
+  font-weight: bold;
+  color:#333333;
+}
+
+.jchinese-tick {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+
+.diliver-news {
+  position: absolute;
+  top: 242px;
+  height: 50px;
+  width: 100%;
+  background: white;
+}
+
+.diliver-font {
+  position: absolute;
+  top: 18px;
+  left: 22px;
+  font-size: 30;
+  font-weight: bold;
+  color:#333333;
+}
+
+.diliver-button {
+  width: 64px;
+  height: 32px;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+.teacher-option {
+  position: absolute;
+  top: 342px;
+  height: 50px;
+  width: 100%;
+  background: white;
+  border-bottom:1pt solid #C4C4C4;
+}
+
+.teacher-font {
+  position: absolute;
+  top: 18px;
+  left: 22px;
+  font-size: 30;
+  font-weight: bold;
+  color:#333333;
+}
+
+.teacher-button {
+  -webkit-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -moz-transfomr: rotate(180deg);
+  width: 15px;
+  position: absolute;
+  right: 20px;
+  top: 18px;
+}
+
+.useitem-option {
+  position: absolute;
+  top: 393px;
+  height: 50px;
+  width: 100%;
+  background: white;
+   border-bottom:1pt solid #C4C4C4;
+}
+
+.useitem-font {
+  position: absolute;
+  top: 18px;
+  left: 22px;
+  font-size: 30;
+  font-weight: bold;
+  color:#333333;
+}
+
+.useitem-button {
+  -webkit-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -moz-transfomr: rotate(180deg);
+  width: 15px;
+  position: absolute;
+  right: 20px;
+  top: 18px;
+}
+
+.cancel-option {
+  position: absolute;
+  top: 444px;
+  height: 50px;
+  width: 100%;
+  background: white;
+}
+
+.cancel-font {
+  position: absolute;
+  top: 18px;
+  left: 22px;
+  font-size: 30;
+  font-weight: bold;
+  color:#333333;
+}
+
+.cancel-button {
+  -webkit-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -moz-transfomr: rotate(180deg);
+  width: 15px;
+  position: absolute;
+  right: 20px;
+  top: 18px;
+}
+
+.bottom-font {
+  position: absolute;
+  top: 505px;
+  left: 22px;
+  font-size: 24;
+  color:#666666;
+}

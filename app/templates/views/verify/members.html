@@ -1,0 +1,86 @@
+<ion-view title="會員資訊">
+
+  <ion-nav-buttons>
+    <button class="button header-setting-button" ng-click="membersSettingButtonAction()"></button>
+    <button class="button email_button header-news-button" ng-click="membersNewsButtonAction()"></button>
+  </ion-nav-buttons>
+  <ion-scale>
+    <ion-content scroll=false>
+      <div class="member-darp" data-ng-init="showHUD()">
+        <div class="member-info">
+          <div class="info-style-drap" ng-click="membersVIPDescription()">
+            <i class="icon ion-ios-information-outline info-style" ></i>
+          </div>
+          <div class="member-title">
+            <p class="t1"><b>ELEMENTS</b></p>
+
+            <p class="t2"><b>CLUB</b></P>
+
+            <p class="t3">NATURALLY MORE REWARDING</P>
+          </div>
+          <div class="member-view-drap-{{MemTierCode}}" data-ng-init="members_cardcolor()">
+            <div class="member-view-1">
+              <p class="member-view-1-p1{{font_color}}">親愛的 {{MemNameEng}}.</p>
+
+              <p class="member-view-1-p2{{font_color}}">歡迎回到ELEMENT CLUB!</p>
+            </div>
+            <div class="member-view-2">
+
+              <p class="member-view-2-p1{{font_color}}">有效日期</p>
+
+              <p class="member-view-2-p2{{font_color}}">會員號碼</p>
+
+              <p class="member-view-2-p3{{font_color}}">{{ExpDate}}</p>
+
+              <p class="member-view-2-p4{{font_color}}">{{MemCode}}</p>
+
+            </div>
+            <div class="member-view-3">
+              <p class="member-view-3-p1{{font_color}}">現存積分</p>
+
+              <p class="member-view-3-p2{{font_color}}">{{MemPtBal}}</p>
+            </div>
+            <div class="member-view-4">
+              <p class="member-view-4-p1{{font_color}}">最新更新時間： {{fresh_time}}
+                <i class="icon ion-ios-refresh-empty refresh-icon-font{{font_color}}"
+                   ng-click="showHUD();refresh_member_info();requestPromotionNews();members_cardcolor()"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+         <div class="member-news-drap">
+                <div class="member-news-title"  ><b>最新消息</b></div>
+                <div class="slider-content sliderposition" data-ng-init="requestPromotionNews()">
+                    <ion-slide-box on-slide-changed="slideHasChanged($index)">
+                        <ion-slide>
+                            <div>
+                               <a class="url_style" ng-click="promotion_news_detail(0)">
+                                <img src="images/localImages/promotionNews/website_banner_390x229_2015_.jpg"/>
+                                <span>{{newstext1}}</span></a>
+                            </div>
+                            <div>
+                                <a class="url_style" ng-click="promotion_news_detail(1)">
+                                    <img src="images/localImages/promotionNews/website_banner_367x215pix_01_1.jpg"/>
+                                <span>{{newstext2}}</span></a>
+                            </div>
+
+                        </ion-slide>
+                        <ion-slide>
+                            <div>
+                               <a class="url_style" ng-click="promotion_news_detail(2)"> 
+                                <img src="images/localImages/promotionNews/367x215.jpg"/>
+                                <span>{{newstext3}}</span></a>
+                            </div>
+                            <div >
+                                <a class="url_style" ng-click="promotion_news_detail(3)">
+                                <img src="images/localImages/promotionNews/367x215g_webbanner_b_2.jpg"/>
+                                <span>{{newstext4}}</span></a>
+                            </div>
+                        </ion-slide>
+                    </ion-slide-box>
+          </div>
+        </div>
+      </div>
+    </ion-content>
+  </ion-scale>
+</ion-view>

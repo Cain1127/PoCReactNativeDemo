@@ -1,0 +1,95 @@
+.backgroundToHead{
+	background-color:#993399;
+     position:relative;
+}
+
+.news-close-button-drap{
+	position: absolute;
+	top: 0px;
+  	right: 0px;
+	width: 44px;
+	height: 44px;
+}
+
+.news-close-button{
+  position:absolute;
+  top: 6px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border-width: 0px;
+  background-size: 30px 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.title-font{
+  color: white;
+  font-weight:900 !important;
+}
+//left img_botton in head bar
+.left_b{
+	position: absolute;
+	top:0px;
+  	left: 0px;
+	 width: 70px;
+  height: 45px;
+  //background-color: #ff0000;
+}
+
+.setting_botton{
+ 	width: 30px;
+	position: absolute;
+	left: 20px;
+	top:8px;
+  	margin-left: 20px;
+  	margin-top: 5px;
+}
+
+//right imag_botton in head bar
+.right_b{
+	position: absolute;
+	top:0px;
+	right: 0px;
+	width: 70px;
+	height: 45px;
+}
+
+.message_botton{
+width: 10px;
+position: absolute;
+right: 20px;
+top:8px;
+margin-top: 5px ;
+margin-left: 20px;
+}
+.leftcycle{
+	position: relative;
+	width:22px !important;
+	height:22px !important;
+	top:25px !important;
+	}
+.news-list{
+	position:relative;
+	height:75px;
+	width:100%;
+	background:white;
+}
+.rightyallow{
+	position:relative;
+	float:right;
+	left:15px;
+	width: 22px !important;
+	height: 22px !important;
+	top:25px !important;
+
+}
+.item-a{
+	height:75px !important;
+	border-bottom:5px  solid #191b22 !important;
+
+}
+.newstitle{
+	font-size: 12px;
+	color: #333333;
+}

@@ -1,0 +1,54 @@
+<ion-view title="聯系我們">
+
+  <ion-nav-buttons side="left">
+    <button class="button header-setting-button" ng-click="toSetting()"></button>
+  </ion-nav-buttons>
+
+  <ion-content>
+    <div class="contact-us-head">
+      <span class="note-style">
+        我們會盡快回覆您的留言。
+      </span>
+
+      <div class="text-field-style">
+        <textarea class="text-area-style" placeholder="請輸入內容"></textarea>
+      </div>
+
+      <div class="submit-style">
+        <button class="submit-btn-style" ng-click="next()">遞交</button>
+      </div>
+
+      <div class="phone-tips">
+        <span class="phone-tips-style">想與我們直接對話，請致電以下專線。</span>
+      </div>
+
+      <div class="club-phone-number" ng-click="">
+        <img src="images/ele_club_contactus_phone@2x.png" class="phone-img-style">
+        <label class="club-label">
+          <span class="club-label1-span1">ELEMENT Club 熱線:</span><br>
+          <span class="club-label1-span2">(+852) 2196 8993</span>
+        </label>
+        <img src="images/ele_club_news_arrow@2x.png" class="arrow-style">
+      </div>
+
+      <div style="margin-left: 10px;margin-right: 10px; position: absolute;top: 480px;width: 94%; height: 65px;background: white;border-bottom: 1px solid black" ng-click="">
+        <img src="images/ele_club_contactus_phone@2x.png" class="phone-img-style">
+        <label class="club-label">
+          <span class="club-label1-span1">鑽石級會員服務熱線:</span><br>
+          <span class="club-label1-span2">(+852) 2196 8993</span>
+        </label>
+        <img src="images/ele_club_news_arrow@2x.png" class="arrow-style">
+      </div>
+
+      <div class="contact-us-list">
+        <ol class="nya-bs-select" ng-model="category" title="請選擇查詢種類">
+          <li nya-bs-option="cate in categories">
+            <a>
+              {{cate.name}}
+            </a>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

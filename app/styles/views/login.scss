@@ -1,0 +1,113 @@
+.header_background {
+  background-color: rgba(240, 240, 240, 0);
+}
+
+.ele_login_content {
+  top: 0px !important;
+}
+
+.login_back_btn_drap {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 44px;
+  height: 44px;
+}
+
+.title_font {
+  font-weight: bold !important;
+  color: #ffffff;
+  font-size: 34;
+}
+
+.ele_login_drap {
+  height:auto;
+  width:100%;
+  position:absolute;
+}
+
+.name_input {
+  position: relative;
+  top: 119px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #993399;
+  width: 325px;
+  height: 114px;
+  margin: 0px 25px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.user-name {
+  height: 48px;
+  width: 323px;
+  border-bottom: 1px solid #993399;
+
+}
+
+.name_pic {
+  position: absolute;
+  width: 25px;
+  left: 11px;
+  top: 13px;
+}
+
+.input_name {
+  height: 45px !important;
+  width: 82%;
+  position: absolute;
+  bottom: 65px;
+  left: 45px;
+  font-size: 15px !important;
+  //font-weight:bold;
+  line-height: 41px !important;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.password_pic {
+  position: absolute;
+  width: 25px;
+  left: 11px;
+  top: 79px;
+}
+
+.input_password {
+  height: 45px !important;
+  width: 82%;
+  position: absolute;
+  top: 67px;
+  left: 42px;
+  font-size: 15px !important;
+  //font-weight:bold;
+  line-height: 41px !important;
+  background-color: rgba(255, 255, 255, 0);
+
+}
+
+.login_button {
+  position: relative;
+  top: 138px;
+  width: 325px;
+  margin: 20px 25px;
+  height: 48px;
+  background-color: #993399;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.login_word {
+  position: absolute;
+  top: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+.forget_password {
+  position: relative;
+  top: 144px;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+}

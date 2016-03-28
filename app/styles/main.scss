@@ -1,0 +1,123 @@
+/************************************
+ *
+ *  Main Styles to compile. Here only @imports!
+ *
+ ************************************/
+@import "variables";
+@import "views/verify";
+@import "style";
+@import "views/welcome";
+@import "views/login";
+@import "views/setting";
+@import "views/news";
+@import "views/members";
+@import "views/food";
+@import "views/contact_us";
+@import "views/promotion_news_detail";
+@import "views/member_vip_description";
+@import "views/forget_password";
+
+.pane, .view, .view-container {
+  background: #E0E0E0 !important;
+}
+
+.list-inset {
+  border-radius: 6px;
+  input {
+    padding-right: 15px !important;
+  }
+  &.has-label {
+    margin-top: 5px;
+  }
+  &.has-button {
+    margin-bottom: 5px;
+  }
+}
+
+.form-label {
+  padding: 0 25px;
+  margin: 0;
+}
+
+.captcha-input {
+  input {
+    width: 50%;
+  }
+}
+
+.captcha {
+  position: absolute;
+  margin-right: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 6px;
+  right: 0;
+  top: 5px;
+  z-index: 99;
+  bottom: 5px;
+  min-height: 0;
+  line-height: 15px;
+}
+
+.button {
+  .spinner-ios, .spinner-ios-small,
+  .spinner-android, .spinner-android-small {
+    stroke: white;
+    position: absolute;
+    left: 12px;
+    top: 8px;
+  }
+  &.button-sign {
+    .spinner-ios, .spinner-ios-small,
+    .spinner-android, .spinner-android-small {
+      left: 13px;
+      top: 13px;
+    }
+  }
+  &.captcha {
+    .spinner-ios, .spinner-ios-small,
+    .spinner-android, .spinner-android-small {
+      left: 2px;
+      top: 10px;
+      svg {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+}
+
+.item-input.error {
+  border: 1px solid $red;
+  border-radius: 5px !important;
+}
+
+.button-clear .icon-back {
+  position: relative;
+  top: 2px;
+}
+
+p.error {
+  color: $red !important;
+}
+
+.ionic-view {
+
+}
+
+ion-tabs.tabs-color-active-positive .tab-item {
+  color: #5c5c5c;
+}
+
+ion-tabs.tabs-color-active-positive .tab-item.tab-item-active, ion-tabs.tabs-color-active-positive .tab-item.active, ion-tabs.tabs-color-active-positive .tab-item.activated {
+  color: #993399;
+}
+
+.bar-stable.bar.bar-header {
+  background-color: #993399 !important;
+}
+
+.bar.bar-stable .title {
+  color: white !important;
+}
+

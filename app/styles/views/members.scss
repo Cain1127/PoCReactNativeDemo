@@ -1,0 +1,372 @@
+.member-info {
+  position: relative;
+  height: 355px;
+  background-color: #eeeeee;
+}
+
+.info-style {
+  font-size: 32px;
+  float: right;
+  margin-top: 7px;
+  margin-right: 17px;
+}
+.info-style-drap{
+  position: absolute;
+  right: 0px;
+  top: 20px;
+  width: 54px;
+  height: 44px;
+}
+
+.header-news-button {
+  top: 26px;
+  right: 8px;
+  width: 30px;
+  border-width: 0px;
+  background-size: 25px auto;
+  background-color:transparent !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/ele_club_topbar_btn_msg.png);
+}
+
+.member-title {
+  position: relative;
+  left: 87.5px;
+  top: 43px;
+  width: 200px;
+  height: 59px;
+}
+
+.t1 {
+  width: 90px;
+  display: block;
+  color: #191b22;
+  font: bold;
+  margin: 0 auto;
+  padding-left: 8px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #191b22;
+  font-size: 15px;
+  //background-color: #00ff00;
+}
+
+.t2 {
+  display: block;
+  color: #191b22;
+  font: bold;
+  padding-left: 80px;
+  padding-top: 3px;
+  font-size: 15px;
+  margin: 0 auto;
+  //background-color: #ff0000;
+}
+
+.t3 {
+  display: block;
+  color: #191b22;
+  font-size: 12px;
+  margin: 8px auto 0;
+  padding-left: 15px;
+  //background-color: #0000ff;
+}
+
+//会员卡样式启始位置
+.member-view-drap-1 {
+  position: absolute;
+  top: 145px;
+  width: 345px;
+  margin-left: 15px;
+  height: 195px;
+  border-radius: 15px;
+  background-color: #191b22;
+
+}
+
+.member-view-drap-2 {
+  position: absolute;
+  top: 145px;
+  width: 345px;
+  margin-left: 15px;
+  height: 195px;
+  border-radius: 15px;
+  background-color: #5e1d7f;
+
+}
+
+.member-view-drap-3 {
+  position: absolute;
+  top: 145px;
+  width: 345px;
+  margin-left: 15px;
+  height: 195px;
+  border-radius: 15px;
+  background-color: #8f1731;
+
+}
+
+.member-view-drap-4 {
+  position: absolute;
+  top: 145px;
+  width: 345px;
+  margin-left: 15px;
+  height: 195px;
+  border-radius: 15px;
+  background-color: #d8d8d9;
+
+}
+
+.member-view-1 {
+  width: 315px;
+  height: 45px;
+  margin-left: 15px;
+}
+
+.member-view-1-p1 {
+  display: block;
+  color: #ffffff;
+  padding-top: 14px;
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+.member-view-1-p1-4 {
+  display: block;
+  color: #000000;
+  padding-top: 14px;
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+.member-view-1-p2 {
+  display: block;
+  color: #ffffff;
+  padding-top: 0px;
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+.member-view-1-p2-4 {
+  display: block;
+  color: #000000;
+  padding-top: 0px;
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+.member-view-2 {
+  width: 315px;
+  height: 70px;
+  margin-left: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.member-view-2-p1 {
+  float: left;
+  color: rgba(255, 255, 255, 0.5);
+  padding-top: 20px;
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+.member-view-2-p1-4 {
+  float: left;
+  color: rgba(0, 0, 0, 0.5);
+  padding-top: 20px;
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+.member-view-2-p2 {
+  float: right;
+  color: rgba(255, 255, 255, 0.5);
+  padding-top: 20px;
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+.member-view-2-p2-4 {
+  float: right;
+  color: rgba(0, 0, 0, 0.5);
+  padding-top: 20px;
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+.member-view-2-p3 {
+  position: relative;
+  top: 37px;
+  right: 45px;
+  color: #ffffff;
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+.member-view-2-p3-4 {
+  position: relative;
+  top: 37px;
+  right: 45px;
+  color: #000000;
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+.member-view-2-p4 {
+  float: right;
+  position: relative;
+  left: 45px;
+  color: #ffffff;
+  top: 16px;
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+.member-view-2-p4-4 {
+  float: right;
+  position: relative;
+  left: 45px;
+  color: #000000;
+  top: 16px;
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+.member-view-3 {
+  width: 315px;
+  height: 40px;
+  margin-left: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.member-view-3-p1 {
+  float: left;
+  color: #ffffff;
+  padding-top: 7px;
+  font-size: 15px;
+  margin: 0 auto;
+}
+
+.member-view-3-p1-4 {
+  float: left;
+  color: #000000;
+  padding-top: 7px;
+  font-size: 15px;
+  margin: 0 auto;
+}
+
+.member-view-3-p2 {
+  float: right;
+  color: #ffffff;
+  padding-top: 7px;
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+.member-view-3-p2-4 {
+  float: right;
+  color: #000000;
+  padding-top: 7px;
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+.member-view-4 {
+  width: 315px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+.member-view-4-p1 {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 12px;
+  margin-left: 55px;
+}
+
+.member-view-4-p1-4 {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 12px;
+  margin-left: 55px;
+}
+
+.refresh-icon-font {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  font-size: 28px;
+}
+
+.refresh-icon-font-4 {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+//会员卡样式结束位置
+
+.member-news-drap {
+  width: 100%;
+  height: 180;
+  background-color: white;
+}
+
+.member-news-title {
+  height: 40px;
+  display: block;
+  padding-top: 13px;
+  padding-left: 10px;
+  color: #191b22;
+  font-size: 15px;
+  font: bold;
+}
+
+.sliderposition {
+  width: 100%;
+  .slider-pager-page {
+    //最新消息 图片下面的两个小圆点的大小调整
+    font-size: xx-small;
+  }
+  .slider-pager {
+    top: 118px;
+  }
+  .slider {
+    height: 160px;
+  }
+
+  .slider-slide > div {
+    width: 167.5px;
+    height: 120px;
+    margin: 0 10px;
+    float: left;
+    //background-color: yellow;
+    img {
+      height: 90px;
+      width: 167.5px;
+      display: block;
+    }
+    span {
+      height: 30px;
+      width: 167.5px;
+      background-color: #eeeeee;
+      display: block;
+      color: #262626;
+      padding-left: 7px;
+      padding-top: 3.33px;
+      font-size: 12px;
+    }
+  }
+}
+.url_style{
+	color:#0099ff; 
+	text-decoration:none;
+}
+.membernews-title-style{
+  color: #696969;
+  position: relative;
+  top: 156px;
+  text-align: center;
+}
+.ele-memb-news-content-style{
+  background-color: white;
+}

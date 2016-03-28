@@ -1,0 +1,161 @@
+.contact-us-list {
+  margin-left: 3%;
+  position: relative;
+  width: 94%;
+  margin-right: 3%;
+  margin-bottom: 10px;
+  top: 60px;
+  .nya-bs-select {
+    width: 100% !important;
+    .dropdown-toggle {
+      height: 52px;
+      background: #993399;
+    }
+    button {
+      position: relative;
+      .filter-option {
+        background: white;
+        color: #333333;
+        left: 0;
+        right: 45px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        height: 50px;
+        line-height: 45px;
+        text-indent: 10px;
+        width: auto;
+        border: 1px solid #993366;
+      }
+    }
+    .dropdown-menu.inner {
+      position: static;
+    }
+  }
+}
+
+.contact-us-head {
+  height: 585px;
+  width: 100%;
+  position: relative;
+  background-color: white;
+}
+
+.note-style {
+  font-weight: bold;
+  color: black;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  font-size: medium;
+}
+
+.text-field-style {
+  margin-left: 3.5%;
+  position: absolute;
+  top: 120px;
+  width: 93%;
+  height: 150px;
+  margin-right: 3.5%;
+  border: 1px solid #ccc;
+}
+
+.text-area-style {
+  font-size: medium;
+  color: #333333;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  border: none;
+  resize: none;
+  padding: 10px;
+}
+
+.submit-style {
+  margin-left: 3%;
+  margin-right: 3%;
+  position: absolute;
+  top: 290px;
+  width: 94%;
+  height: 40px;
+}
+
+.submit-btn-style {
+  font-size: medium;
+  color: white;
+  background: purple;
+  width: 100%;
+  height: 100%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.phone-tips {
+  margin-left: 10px;
+  margin-right: 10px;
+  position: absolute;
+  top: 350px;
+  width: 94%;
+  height: 65px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.phone-tips-style {
+  font-weight: bold;
+  color: black;
+  position: absolute;
+  top: 20px;
+  font-size: medium;
+}
+
+.club-phone-number {
+  margin-left: 10px;
+  margin-right: 10px;
+  position: absolute;
+  top: 415px;
+  width: 94%;
+  height: 65px;
+  background: white;
+  border-bottom: 1px solid black;
+}
+
+.phone-img-style {
+  width: 33px;
+  height: 35px;
+  top: 15px;
+  position: absolute;
+  background-size: 100%;
+}
+
+.club-label {
+  top: 10px;
+  left: 40px;
+  height: 100%;
+  position: absolute;
+}
+
+.club-label1-span1 {
+  height: 32px;
+  font-size: 16px;
+  color: #333333;
+}
+
+.club-label1-span2 {
+  height: 32px;
+  font-size: 20px;
+  color: #333333;
+}
+
+.arrow-style {
+  right: 0px;
+  width: 35px;
+  height: 35px;
+  top: 15px;
+  position: absolute;
+  background-size: 100%;
+}
+
+
+
+

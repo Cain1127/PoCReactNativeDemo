@@ -1,0 +1,30 @@
+<ion-view>
+    <ion-scale>
+        <ion-header-bar class="header_background">
+            <div class="login_back_btn_drap" ng-click="loginTurnbackButtonAction()">
+                <img style="position: absolute;top: 8px;left: 5px;width:30px;height: 30px;" src="images/ele_club_login_topbar_btn_back@2x.png"/>
+            </div>
+            <h1 class="title center title_font" >會員登錄</h1>
+        </ion-header-bar>
+
+        <ion-content scroll=false class="ele_login_content">
+        <img class="ele_login_drap" src="images/ele_login_Background.png"/>
+            <div  class="name_input" >
+                <div class="user-name" >
+                    <img class="name_pic" src="images/ele_club_login_icon_user.png"  >
+                    <input class="input_name" type="text" placeholder="用戶名稱" ng-model="verify.username" >
+                </div>
+
+                <img class="password_pic" src="images/ele_club_login_icon_pw.png" >
+                <input class="input_password" style="" type="password" placeholder="密碼" ng-model="verify.password" >
+            </div>
+
+            <div  class="login_button"  ng-click="loginButtonAction()">
+                <span class="login_word">下一步</span>
+            </div>
+            <div ng-click="forgetPasswordButtonAction()">
+              <span class="forget_password">忘記密碼</span>
+            </div>
+        </ion-content>
+    </ion-scale>
+</ion-view>

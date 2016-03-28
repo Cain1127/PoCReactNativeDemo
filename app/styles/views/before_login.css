@@ -1,0 +1,116 @@
+.header_background {
+  background: url(/images/ele_club_topbar_aos.png);
+  position: relative; }
+
+.back_button {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  width: 25px; }
+
+.title_font {
+  font-weight: 900 !important;
+  font-size: 20px; }
+
+.head_title {
+  height: 580px;
+  width: 100%;
+  position: relative;
+  background-image: url(/images/MemberViewBackground@2x.png);
+  background-size: 100%; }
+
+.left_photo {
+  position: absolute;
+  top: 50px;
+  left: 25px;
+  width: 50px; }
+
+.right_photo {
+  position: absolute;
+  top: 50px;
+  right: 25px;
+  width: 50px; }
+
+.bottom_photo {
+  position: absolute;
+  top: 373px;
+  left: 85px;
+  width: 200px; }
+
+.name_input {
+  position: absolute;
+  top: 100px;
+  left: 24px;
+  border: 1px solid #999999;
+  width: 87%;
+  height: 52px; }
+
+.name_pic {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 28px; }
+
+.input_name {
+  position: absolute;
+  left: 50px;
+  top: 8px;
+  font-size: 24px !important;
+  height: 50px;
+  width: 84%;
+  line-height: 30px !important; }
+
+.password_input {
+  position: absolute;
+  top: 165px;
+  left: 24px;
+  border: 1px solid #999999;
+  width: 87%;
+  height: 52px; }
+
+.password_pic {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 28px; }
+
+.input_password {
+  position: absolute;
+  left: 50px;
+  top: 8px;
+  font-size: 24px !important;
+  height: 50px;
+  width: 84%;
+  line-height: 30px !important; }
+
+.font_middle {
+  position: absolute;
+  left: 100px;
+  top: 43px; }
+
+.font_style {
+  font-size: 23px;
+  display: block;
+  margin-bottom: 16px;
+  font-weight: 900; }
+
+.forget_password {
+  position: absolute;
+  top: 250px;
+  left: 135px;
+  font-size: 25px;
+  font-weight: 200;
+  color: black; }
+
+.next_button {
+  position: absolute;
+  top: 295px;
+  left: 24px;
+  width: 87%;
+  background: #4F0E8B;
+  height: 48px;
+  font-size: 25px;
+  font-weight: 200;
+  color: white; }
+
+/*# sourceMappingURL=before_login.css.map */

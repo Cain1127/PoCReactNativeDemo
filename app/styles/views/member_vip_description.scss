@@ -1,0 +1,109 @@
+//解决header bar下面的一条白线
+.bar-header {
+    border-bottom-width: 0px !important;
+}
+
+.member_vip_description_headbar{
+  background-color: #993399;
+}
+
+//白色左向返回图标样式
+.vip_description_topbar_btn_back{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 8px;
+	left: 5px;
+
+}
+
+.vip_description_topbar_btn_back_drap{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 44px;
+	width: 44px;
+
+}
+
+.vip_description_bottom_images_drap{
+	position: relative;
+	height: 120px;
+	width: 92%;
+	margin-top: 25px;
+	margin-left: 15px;
+}
+
+.vip_description_b_l{
+
+	width: 115px;
+	height: 120px;
+}
+.vip_description_b_c{
+	position: absolute;
+	right: 115px;
+	width: 115px;
+	height: 120px;
+}
+.vip_description_b_r{
+	position: absolute;
+	right: 0px;
+	width: 115px;
+	height: 120px;
+}
+.vip_description_bottom_word1{
+	position: absolute;
+	left: 15px;
+	top:23px;
+	font-size: 12px;
+	color: black;
+}
+.vip_description_bottom_word2{
+	position: absolute;
+	left: 135px;
+	top:23px;
+	font-size: 12px;
+	color: #ffffff;
+
+}
+.vip_description_bottom_word3{
+	position: absolute;
+	right: 21px;
+	top:23px;
+	font-size: 12px;
+	color: #000000;
+
+}
+.vip_description_bottom_word4{
+	position: absolute;
+	left: 35px;
+	top:80px;
+	font-size: 12px;
+	color: #ffffff;
+
+
+}
+.vip_description_bottom_word5{
+	position: absolute;
+	left:148px;
+	top:80px;
+	font-size: 12px;
+	color: #000000;
+
+}
+.vip_description_bottom_word6{
+	position: absolute;
+	right: 36px;
+	top:79px;
+	font-size: 12px;
+	color: #ffffff;
+
+}
+.vip_description_b_r_i{
+	position: absolute;
+	right: 66px;
+	top:81px;
+	width: 14px;
+	height: 14px;
+	z-index: 2;
+}

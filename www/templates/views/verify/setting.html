@@ -1,0 +1,76 @@
+<ion-view>
+    <ion-scale>
+
+        <ion-header-bar class="head-background" >
+          <!--src="images/ele_club_topbar_btn_close.png"-->
+            <div class="setting-close-button-drap" ng-click="settingCloseButtonAction()">
+             <img src="images/ele_club_topbar_btn_close@2x.png" class="setting-close-button"/>
+            <h1 class="title center title-font" >設定</h1>
+        </div>
+        </ion-header-bar>
+
+        <ion-content >
+
+           <div class="tatal_div" >
+                <span class="language-font" >
+                     {{language}}
+                </span>
+
+                <div class="english-option"  ng-click="change2English()">
+                    <span class="eng-font" >
+                        {{eng}}
+                    </span>
+                    <img class="eng-tick" src="{{languagepic}}" style=" display:{{show1}};" >
+                </div>
+
+                <div class="fchinese-option"  ng-click="change2Fchinese()">
+                    <span class="f-font">
+                        {{fchinese}}
+                    </span>
+                    <img class="fchinese-tick" src="{{languagepic}}" style="display:{{show2}};">
+                </div>
+
+                <div class="jchinese-option"  ng-click="change2Jchinese()">
+                    <span class="j-font" >
+                       {{jchinese}}
+                    </span>
+                    <img class="jchinese-tick" src="{{languagepic}}" style="display:{{show3}};" >
+                </div>
+
+                 <div class="diliver-news" >
+                    <span class="diliver-font" >
+                       {{diliverNews}}
+                    </span>
+                     <img class="diliver-button" src ="{{newspic}}"   ng-click="newsButton()">
+                </div>
+
+                 <div class="teacher-option"  ng-click="">
+                    <span class="teacher-font" >
+                       {{teacher}}
+                    </span>
+                    <img class="teacher-button" src="images/ele_club_topbar_btn_back.png" >
+                </div>
+
+                 <div class="useitem-option"  ng-click="">
+                    <span class="useitem-font" >
+                       {{useitem}}
+                    </span>
+                    <img class="useitem-button" src="images/ele_club_topbar_btn_back.png" >
+                </div>
+
+                 <div class="cancel-option"  >
+                    <span class="cancel-font" >
+                       {{cancel}}
+                    </span>
+                    <img class="cancel-button" src="images/ele_club_topbar_btn_back.png" >
+                </div>
+
+                <span class="bottom-font" >
+                    Version 1.1.1(STG)
+                </span>
+
+           </div>
+
+
+        </ion-content>
+    </ion-scale>
